@@ -23,7 +23,7 @@ jobs:
         run: npm ci
      
       - name: Build
-        run: npm run build
+        run: ng build --output-path=dist/hello-world
 
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3
