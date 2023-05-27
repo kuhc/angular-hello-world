@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --deploy-url /hello-world/" --output-path=dist/hello-world",
+    "build": "ng build --deploy-url /hello-world/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
